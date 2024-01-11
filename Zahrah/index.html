@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Al Hasanah</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="title-head">
             <span>TEKNOLOGI </span><br>YAYASAN <br>AL HASANAH
         </div>
-        <div class="container-title">
+        <div class="container-title-head">
             <ul class="ul-title">
                 <li class="li-title">smartsytem</li>
                 <li class="li-title">simpegapplication</li>
@@ -23,22 +24,59 @@
     </div>
     <!-- HEADER BAR END-->
 
-    <!-- NAVBAR -->
+    <!-- TAMPILAN HOME -->
     <div>
-        <div class="container-navbar">
-            <div class="navbar">
+        <div class="container-home">
+            <div class="home">
+                <!-- NAVBAR -->
                 <ul class="ul-navbar">
-                    <li class="li-navbar">home</li>
-                    <li class="li-navbar">about us</li>
-                    <li class="li-navbar">pages</li>
+                    <li class="li-navbar"><a href="#home">home</a></li>
+                    <li class="li-navbar"><a href="#about us">about us</a></li>
+                    <li class="li-navbar"><a href="#pages">pages</a></li>
                 </ul>
-            </div>
-            <div class="title-web">
-                
+                <!-- NAVBAR END -->
+
+                <!-- JUDUL -->
+                <div class="container-title" id="home">
+                    <div class="title-web">
+                        <h1>JUDUL BESAR</h1>
+                        <ul class="ul-icon">
+                            <li class="li-icon"><i class="feather-icons" data-feather="hard-drive"></i></li>
+                            <li class="li-icon"><i class="feather-icons" data-feather="monitor"></i></li>
+                            <li class="li-icon"><i class="feather-icons" data-feather="cpu"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- JUDUL END -->
+
+                <!-- SUB JUDUL -->
+                <div class="container-sub-title">
+                    <div class="sub-tittle">
+
+                    </div>
+                </div>
+                <!-- SUB JUDUL END -->
             </div>
         </div>
-
     </div>
-    <!-- NAVBAR END -->
+    <!-- TAMPILAN HOME END -->
+
+    <!-- ABOUT US PAGE -->
+    <div>
+        <div class="container-about">
+            <div class="about">
+                <h1>Al Hasanah</h1>
+                <p>Al Hasanah meruapakan lembaga pendidikan islam dengan pembelajaran Al-Qur’an metode Qira’ati di semua tingkat: 
+                    PAUDIT, SDIT, SMPI, MTS, MA, dan PONPES. 
+                    Sekarang, sudah saatnya Al Hasanah berkembang dalam 
+                    bidang teknologi wahahahahahaha</p>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT US PAGE END -->
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
