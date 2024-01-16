@@ -156,3 +156,47 @@ html{
     margin-top: 40px;
 }
 /* ABOUT US END */
+
+/* PAGES */
+.container-pages{
+    background-color: black;
+    display: flex;
+    padding: 100px;
+}
+.pages-box img{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    border: 25px solid #9BA7E4;
+}
+.pages-desc{
+    width: 400px;
+    margin-left: 85px;
+}
+.pages-desc h3{
+    color: white;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pages-desc p{
+    color: white;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.li-ket{
+    list-style-type: circle;
+    color: white;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 25px;
+}
+/* PAGES END */
