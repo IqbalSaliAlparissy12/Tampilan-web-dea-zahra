@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #71B8BF;
+}
+
+navbar {
+    display: flex;
+    padding: 0.6rem 7%;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.navbar-ul {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: black;
+}
+
+.navbar-link {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    margin: 0 0.9rem;
+}
